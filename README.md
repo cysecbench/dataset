@@ -88,6 +88,22 @@ Existing datasets are too broad and often lack focus on cybersecurity. CySecBenc
 
 ---
 
+## 📜 Citation
+
+If you use CySecBench, please cite:
+
+```bibtex
+@article{CySecBench2024,
+	title        = {{CySecBench: Generative AI-based CyberSecurity-focused Prompt Dataset for Benchmarking Large Language Models}},
+	author       = {Johan Wahréus and Ahmed Mohamed Hussain and Panos Papadimitratos},
+	year         = {2025},
+	journal      = {arXiv preprint arXiv:2501.01335},
+	url          = {https://arxiv.org/abs/2501.01335}
+}
+```
+
+---
+
 ## 🔒 License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.

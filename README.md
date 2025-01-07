@@ -1,10 +1,13 @@
 
 # 🚀 CySecBench: Generative AI-based CyberSecurity-focused Prompt Dataset for Benchmarking Large Language Models 🛡️
 
+<a href="https://arxiv.org/abs/2501.01335">
+	<img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:CySecBench&color=red&logo=arxiv" alt="Arxiv:CySecBench">
+</a>
+
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  
 
-**The Cybersecurity domain-specific dataset for benchmarking Large Language Models.**
-
+**The largest and most comprehensive Generative AI-based CyberSecurity-focused Dataset for Benchmarking Large Language Models**
 ---
 
 ## 🌟 Overview
@@ -12,27 +15,31 @@
 The **CySecBench** paper offers:
 - 🎯 **A cutting-edge dataset** of 12662 prompts tailored to cybersecurity challenges.
 - 🧠 **Novel jailbreaking methods** leveraging prompt obfuscation and refinement.
-- 📊 **Comprehensive performance evaluation** of LLMs like ChatGPT, Claude, and Gemini.  
+- 📊 **Comprehensive performance evaluation** of LLMs like ChatGPT, Claude, and Gemini.
 
 **Why CySecBench?**
 
 Existing datasets are too broad and often lack focus on cybersecurity. CySecBench fills this gap by providing **domain-specific prompts** organized into 10 categories, enabling a precise evaluation of LLM security mechanisms.
+
+### 📄 Access the Paper
+
+You can download the full research paper here: [CySecBench (PDF)](CySecBench_paper.pdf)
 
 ---
 
 ## ✨ Features
 ### 🗂️ Dataset
 - 📁 **10 Categories of Prompts**:
-  - 🌩️ Cloud Attacks
-  - ⚙️ Control System Attacks
-  - 🔒 Cryptographic Attacks
-  - 🕵️ Evasion Techniques
-  - 💻 Hardware Attacks
-  - 🔐 Intrusion Techniques
-  - 📡 IoT Attacks
-  - 🦠 Malware Attacks
-  - 🌐 Network Attacks
-  - 🌍 Web Application Attacks
+  - 🌩️ [Cloud Attacks](Dataset/Category%20sets/cysecbench-cloud-attacks.csv)
+  - ⚙️ [Control System Attacks](Dataset/Category%20sets/cysecbench-control-system-attacks.csv)
+  - 🔒 [Cryptographic Attacks](Dataset/Category%20sets/cysecbench-cryptographic-attacks.csv)
+  - 🕵️ [Evasion Techniques](Dataset/Category%20sets/cysecbench-evasion-techniques.csv)
+  - 💻 [Hardware Attacks](Dataset/Category%20sets/cysecbench-hardware-attacks.csv)
+  - 🔐 [Intrusion Techniques](Dataset/Category%20sets/cysecbench-intrusion-techniques.csv)
+  - 📡 [IoT Attacks](Dataset/Category%20sets/cysecbench-iot-attacks.csv)
+  - 🦠 [Malware Attacks](Dataset/Category%20sets/cysecbench-malware-attacks.csv)
+  - 🌐 [Network Attacks](Dataset/Category%20sets/cysecbench-network-attacks.csv)
+  - 🌍 [Web Application Attacks](Dataset/Category%20sets/cysecbench-web-application-attacks.csv)
  
 ---
 
@@ -58,8 +65,8 @@ Existing datasets are too broad and often lack focus on cybersecurity. CySecBenc
 │   ├── Full dataset/
 │   │   ├── cysecbench.csv
 │   ├── Sample sets/
-│       ├── cysecbench-2000.csv
 │       ├── cysecbench-500.csv
+│       ├── cysecbench-2000.csv
 │       ├── cysecbench-6000.csv
 ```
 
@@ -77,7 +84,7 @@ Existing datasets are too broad and often lack focus on cybersecurity. CySecBenc
 
 ### 🎯 Evaluation Metrics
 - ✅ **Success Rate (SR)**: Percentage of prompts bypassing ethical guidelines.
-- 📈 **Average Rating (AR)**: Degree of harmfulness in LLM responses.
+- 📈 **Average Rating (AR)**: Degree of harmfulness in LLM responses (on a scale of 1-5, where 5 is the most harmful).
   
 ### ⚡ Jailbreaking Performance
 | **LLM**       | **Success Rate (SR)** | **Average Rating (AR)** |
@@ -102,10 +109,12 @@ If you use CySecBench, please cite:
 }
 ```
 
+## ⭐ Star This Repository!
+
+If you found **CySecBench** helpful or interesting, please give this repository a **star** ⭐ to show your support!  
+
 ---
 
 ## 🔒 License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
----
